@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Center container for heading and input */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-heading {
+  text-align: center;
+  margin: 0 0 24px 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.center-input {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+/* Main heading style */
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #1742a0;
+}
+
+/* Subtext style */
+.subtext {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 32px;
+  max-width: 600px;
+}
+
+/* Download button container */
+.download-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+/* Download button style */
+.download-btn {
+  background-color: #1742a0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.15);
+  transition: background 0.2s;
+}
+.download-btn:hover {
+  background-color: #1742a0;
+}
+
+
+/* File upload box styles for centering and border */
+.file-upload-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 32px 24px;
+  margin-bottom: 32px;
+  background: #fafbfc;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-actions-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* Back button style */
+.back-btn {
+  display: flex;
+  align-items: center;
+  background-color: #1742a0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding: 10px 24px;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.10);
+  transition: background 0.2s;
+  gap: 8px;
+}
+.back-btn:hover {
+  background-color: #2563eb;
+}
+
